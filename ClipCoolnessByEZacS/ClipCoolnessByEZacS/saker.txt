@@ -1,0 +1,46 @@
+
+movement
+ midair/running 1p x
+ bhop 1-5p x
+ strafes 1-2p only if epic strafe x
+ surfing 1p x
+ runboosting 1p x
+ edgebug/surf of edge 1p x
+ jumpbug 1p x
+
+misc
+
+ enemy voice reaction 1p x
+ facecam reaction 1p x
+ sneaking behind enemy 1p x
+ being on enemy head 1p x
+ confusing the enemy 1p x
+ staring at the enemy 1p x
+
+
+
+
+kills x
+ 1-5p x
+ no scope 1-5p x
+ collats 1-2p x
+ impactkill(grenade) 1p  x
+ long distance 1p x
+ headshot 1-5p x
+ inspecting before shooting 1p x
+ wallbangs 1-3p per wall x
+ flickx
+  30 grader 1p x
+  90 grader 2p x 
+  180 grader 3p x
+ catching a gun 1p x
+ 
+gamemode x
+ matchmaking 1p x
+ fpl 2p x
+ pro 3p x
+
+quality x
+ shadowplay 1p
+ demo 2p
+ motion blur in demo 3p
