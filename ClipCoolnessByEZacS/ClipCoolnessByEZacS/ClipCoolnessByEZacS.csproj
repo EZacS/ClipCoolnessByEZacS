@@ -7,7 +7,7 @@
     <ProjectGuid>{9DD479E4-FF86-4C79-97CB-4E7963EDAC76}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ClipCoolnessByEZacS</RootNamespace>
-    <AssemblyName>ClipCoolnessByEZacS</AssemblyName>
+    <AssemblyName>P logger by EZacS</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
