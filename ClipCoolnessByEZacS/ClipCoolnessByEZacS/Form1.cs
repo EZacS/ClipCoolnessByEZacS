@@ -14,7 +14,7 @@ namespace ClipCoolnessByEZacS
 {
     public partial class Form : System.Windows.Forms.Form
     {
-        public const string version = "v1.0.1-b1";
+        public const string version = "v1.0.1-b2";
         ScoreSystem scoreSystem;
         public Form()
         {

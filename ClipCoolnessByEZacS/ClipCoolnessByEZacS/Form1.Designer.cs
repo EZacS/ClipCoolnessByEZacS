@@ -386,7 +386,7 @@
             // EnemyVoice
             // 
             this.EnemyVoice.AutoSize = true;
-            this.EnemyVoice.Location = new System.Drawing.Point(442, 88);
+            this.EnemyVoice.Location = new System.Drawing.Point(442, 97);
             this.EnemyVoice.Name = "EnemyVoice";
             this.EnemyVoice.Size = new System.Drawing.Size(128, 17);
             this.EnemyVoice.TabIndex = 29;
@@ -397,7 +397,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(442, 118);
+            this.checkBox1.Location = new System.Drawing.Point(442, 120);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(111, 17);
             this.checkBox1.TabIndex = 30;
@@ -408,7 +408,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(442, 142);
+            this.checkBox2.Location = new System.Drawing.Point(442, 143);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(138, 17);
             this.checkBox2.TabIndex = 31;
