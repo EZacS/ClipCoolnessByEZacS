@@ -65,12 +65,16 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Kills)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HeadShots)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NoScope)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WallBang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Collats)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bhops)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -209,7 +213,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(251, 209);
+            this.label7.Location = new System.Drawing.Point(248, 293);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(49, 24);
             this.label7.TabIndex = 13;
@@ -286,9 +290,9 @@
             this.JumpBug.AutoSize = true;
             this.JumpBug.Location = new System.Drawing.Point(442, 351);
             this.JumpBug.Name = "JumpBug";
-            this.JumpBug.Size = new System.Drawing.Size(136, 17);
+            this.JumpBug.Size = new System.Drawing.Size(68, 17);
             this.JumpBug.TabIndex = 20;
-            this.JumpBug.Text = "Jump bug/ surf of edge";
+            this.JumpBug.Text = "edgebug";
             this.JumpBug.UseVisualStyleBackColor = true;
             this.JumpBug.CheckedChanged += new System.EventHandler(this.JumpBug_CheckedChanged);
             // 
@@ -334,7 +338,7 @@
             "30°",
             "90°",
             "180°"});
-            this.Flick.Location = new System.Drawing.Point(255, 236);
+            this.Flick.Location = new System.Drawing.Point(252, 320);
             this.Flick.Name = "Flick";
             this.Flick.Size = new System.Drawing.Size(141, 21);
             this.Flick.TabIndex = 12;
@@ -489,11 +493,47 @@
             this.label12.TabIndex = 38;
             this.label12.Text = "Cool strafes";
             // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(442, 374);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(69, 17);
+            this.checkBox6.TabIndex = 39;
+            this.checkBox6.Text = "Jumpbug";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.CheckBox6_CheckedChanged);
+            // 
+            // trackBar1
+            // 
+            this.trackBar1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.trackBar1.LargeChange = 1;
+            this.trackBar1.Location = new System.Drawing.Point(255, 245);
+            this.trackBar1.Maximum = 5;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(104, 45);
+            this.trackBar1.TabIndex = 40;
+            this.trackBar1.Scroll += new System.EventHandler(this.TrackBar1_Scroll_1);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(256, 218);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(59, 24);
+            this.label13.TabIndex = 41;
+            this.label13.Text = "0 taps";
+            this.label13.Click += new System.EventHandler(this.Label13_Click);
+            // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.trackBar1);
+            this.Controls.Add(this.checkBox6);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -544,6 +584,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.WallBang)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Collats)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bhops)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -585,10 +626,12 @@
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.Label label13;
     }
 }
 

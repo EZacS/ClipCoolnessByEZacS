@@ -14,7 +14,7 @@ namespace ClipCoolnessByEZacS
 {
     public partial class Form : System.Windows.Forms.Form
     {
-        public const string version = "v1.0.1-b2";
+        public const string version = "v1.0.2-b1";
         ScoreSystem scoreSystem;
         public Form()
         {
@@ -224,6 +224,24 @@ namespace ClipCoolnessByEZacS
         private void Label8_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void TrackBar1_Scroll_1(object sender, EventArgs e)
+        {
+            scoreSystem.Values["TrackBar1"] = trackBar1.Value;
+            scoreSystem.updateScore();
+            label13.Text = $"{trackBar1.Value} tap{(trackBar1.Value == 1 ? "" : "s")}";
+        }
+
+        private void Label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CheckBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            scoreSystem.Values["CheckBox6"] = checkBox6.Checked ? 1 : 0;
+            scoreSystem.updateScore();
         }
     }
 }
